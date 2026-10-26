@@ -1,6 +1,6 @@
 {
   "name": "dsh-claude-provider",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Anthropic Claude Code provider for DeepSeek Harness: a Settings -> Providers panel that signs in with a Claude Pro/Max or Claude Code account over OAuth, using the harness authorization seam and pi-ai's Anthropic flow.",
   "type": "module",
   "main": "lib/index.js",
@@ -49,6 +49,7 @@
       "inject": [
         "@deepseek-ai/dsh-client-connection",
         "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-primitives",
         "@deepseek-ai/dsh-client-ui-slots",
         "@deepseek-ai/dsh-client-ui-settings"
       ],
